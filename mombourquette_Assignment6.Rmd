@@ -1,10 +1,12 @@
 ---
 title: "mombourquette_Assignment6"
+author: "Janine Mombourquette"
 output: html_document
 date: "2025-11-01"
 ---
 
-# Cooperative nest defense by European Starlings (Sturnus vulgaris) during a predatory threat
+# Cooperative nest defense by European Starlings (*Sturnus vulgaris*) during a predatory threat
 #### Paper by Elizabeth A. Lewis and Colleen A. Barber
 
 ### Introduction
+Cooperative nest defense is when birds (usually those of the same species) work together to defend a nest from a threat. Some common behaviours involved in cooperative nest defense include alarm calling and mobbing. One potential theory for why this occurs is related to the reproductive strategies of these animals. In many species, male birds often mate with several females and have offspring in multiple nests. Since these birds want to protect all of their offspring, it is thought that males would work together to protect the nests in the population just in case they have offspring in them. The study species for this paper was the European starling. These are a social, cavity nesting passerine species. There is a lack of knowledge on starlings' investment in nest defense. An important characteristic of starlings is that both males and females can have offspring in multiple nests due to the use of many different reproductive strategies. Thus, females may be motivated to participate in cooperative nest defense for this reason. The objectives of this paper were to determine if European starlings part take in cooperative nest defense, and if so, do both males and females participate in this behaviour.
