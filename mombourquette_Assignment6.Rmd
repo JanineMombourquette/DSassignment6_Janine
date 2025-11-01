@@ -1,0 +1,10 @@
+---
+title: "mombourquette_Assignment6"
+output: html_document
+date: "2025-11-01"
+---
+
+# Cooperative nest defense by European Starlings (Sturnus vulgaris) during a predatory threat
+#### Paper by Elizabeth A. Lewis and Colleen A. Barber
+
+### Introduction
