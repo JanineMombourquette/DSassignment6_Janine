@@ -17,7 +17,19 @@ This study took place during May-July 2015, during the European starling breedin
 ### Results and conclusions
 Researchers found that starlings (both parents at the box and other unrelated individuals) flew to nest boxes significantly more during experimental trials compared to control trials (Lewis & Barber, 2023). The highest number of responding birds in a trial was 7 individuals (one parent and seven other starlings) during an experimental trial (Lewis & Barber, 2023). Of all of the unrelated starlings that defended other nest boxes, 11 were identified as male and 3 were identified as female (Lewis & Barber, 2023). 
 
-It was found that the aggregate scores for the experimental trial (the American red squirrel) were significantly higher than the responses to the control trial (the rock) (Lewis & Barber, 2023). The highest aggregate score was 10, and was observed during an experimental trial (Lewis & Barber, 2023). The most common defense tactic was alarm calls/chips, which occured in all experimental trials (Lewis & Barber, 2023). 
+It was found that the aggregate scores for the experimental trial (the American red squirrel) were significantly higher than the responses to the control trial (the rock) as shown in Figure 1 (Lewis & Barber, 2023). The highest aggregate score was 10, and was observed during an experimental trial (Lewis & Barber, 2023). The most common defense tactic was alarm calls/chips, which occured in all experimental trials (Lewis & Barber, 2023). 
+
+```{r, echo=FALSE}
+library(ggplot2)
+birds <- read.csv("birds_scores.csv")
+ggplot(birds, aes(x = Trial, y = aggregate_score)) +
+  geom_boxplot() +
+  labs(x = "Trial",
+       y = "Aggregate Score") +
+  theme_classic() +
+  theme(legend.position = "none")
+```
+Figure 1. Boxplot of aggregate scores of nest defense behaviours done by European starlings during control (n = 16) and experimental (n = 16) trials.
 
 Researchers were able to answer the two objectives of this article. They found that cooperative nest defense does occur in European starlings and that both females and males participated (Lewis & Barber, 2023). The authors propose that a next step for this work could be doing DNA analysis to determine the genetic relationships among the birds and the nestlings they defended to see if that is a potential driver of cooperative nest defense (Lewis & Barber, 2023).
 
