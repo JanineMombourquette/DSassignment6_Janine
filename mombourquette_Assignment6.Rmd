@@ -1,8 +1,10 @@
 ---
 title: "mombourquette_Assignment6"
 author: "Janine Mombourquette"
-output: html_document
 date: "2025-11-01"
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 # Cooperative nest defense by European Starlings (*Sturnus vulgaris*) during a predatory threat
