@@ -3,12 +3,13 @@ title: "mombourquette_Assignment6"
 author: "Janine Mombourquette"
 date: "2025-11-01"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
-# Cooperative nest defense by European Starlings (*Sturnus vulgaris*) during a predatory threat
+# Summary of Cooperative nest defense by European Starlings (*Sturnus vulgaris*) during a predatory threat
 #### Paper by Elizabeth A. Lewis and Colleen A. Barber
+##### Data and code for this assignment can be accessed through GitHub: https://github.com/JanineMombourquette/DSassignment6_Janine
 
 ### Introduction
 Cooperative nest defense is when birds (usually those of the same species) work together to defend a nest from a threat (Beletsky and Orians, 1989). Some common behaviours involved in cooperative nest defense include alarm calling and mobbing (Trivers, 1971, da Cunha et al., 2017a). This type of activity is very risky to participate in, as these individuals are making themselves known to the predator (Lewis & Barber, 2023). Typically, it is male birds who take part in these activities (da Cunha et al., 2017b). One potential theory for why this occurs is related to the reproductive strategies of these animals (Brown, 1987). In many species, male birds often mate with several females and have offspring in multiple nests (Gibbs et al., 1990). Since these birds want to protect all of their offspring, it is thought that males would work together to protect the nests in the population just in case they have offspring in them (Lewis & Barber, 2023). The study species for this paper was the European starling. These are a social, cavity nesting passerine species (Lewis & Barber, 2023). There is a lack of knowledge on starlings' investment in nest defense (Lewis & Barber, 2023). An important characteristic of starlings is that both males and females can have offspring in multiple nests due to the use of many different reproductive strategies (Lewis & Barber, 2023). Thus, females may be motivated to participate in cooperative nest defense for this reason (Lewis & Barber, 2023). The objectives of this paper were to determine if European starlings part take in cooperative nest defense, and if so, do both males and females participate in this behaviour (Lewis & Barber, 2023).
@@ -17,9 +18,9 @@ Cooperative nest defense is when birds (usually those of the same species) work 
 This study took place during May-July 2015, during the European starling breeding season (Lewis & Barber, 2023). To identify the birds during the study, they were banded using coloured bands which allowed researchers to ID and sex birds at a distance (Lewis & Barber, 2023). This study used 16 nest boxes on the Saint Mary's University campus (Lewis & Barber, 2023). They exposed the nest boxes to two trials, an experimental trial (where a taxidermy American red squirrel was placed on the nest box) and a control trial (where a rock of similar colour and dimension to the squirrel were placed on the nest box) (Lewis & Barber, 2023). Trials lasted for 3 minutes and began when an adult arrived at the box (Lewis & Barber, 2023). During this time, observations were recorded, including the adults that were present and the defense behaviours they displayed (Lewis & Barber, 2023). Individual defense behaviours were counted once per trial and given a score (Lewis & Barber, 2023). The potential behaviours and scores were as follows: no reaction (0), alarm calls or chips (1), fly-bys (2), dives (3), hits (4) (Lewis & Barber, 2023). These were then combined to get an aggregate score for each trial type at each nest box ranging from 0 to 10 (Lewis & Barber, 2023). Researchers used a Wilcoxon matched pairs signed-rank test to analyze the total number of starlings that flew to the nest box (Lewis & Barber, 2023). They used this same test to analyze the aggregate defense scores for the two trials (Lewis & Barber, 2023). For analyzing the number of non-parent starlings who responded to experimental and control trials, a Fisher's Exact test was performed (Lewis & Barber, 2023). Fisher's Exact tests were also used to analyze parental response between the trial types (Lewis & Barber, 2023). 
 
 ### Results and conclusions
-Researchers found that starlings (both parents at the box and other unrelated individuals) flew to nest boxes significantly more during experimental trials compared to control trials (Lewis & Barber, 2023). The highest number of responding birds in a trial was 7 individuals (one parent and seven other starlings) during an experimental trial (Lewis & Barber, 2023). Of all of the unrelated starlings that defended other nest boxes, 11 were identified as male and 3 were identified as female (Lewis & Barber, 2023). 
+Researchers found that starlings (both parents at the box and other unrelated individuals) flew to nest boxes significantly more during experimental trials compared to control trials (Wilcoxon *W* = 45, *N* = 16, *p* = 0.004) (Lewis & Barber, 2023). The highest number of responding birds in a trial was 7 individuals (one parent and seven other starlings) during an experimental trial (Lewis & Barber, 2023). Of all of the unrelated starlings that defended other nest boxes, 11 were identified as male and 3 were identified as female (Lewis & Barber, 2023). 
 
-It was found that the aggregate scores for the experimental trial (the American red squirrel) were significantly higher than the responses to the control trial (the rock) as shown in Figure 1 (Lewis & Barber, 2023). The highest aggregate score was 10, and was observed during an experimental trial (Lewis & Barber, 2023). The most common defense tactic was alarm calls/chips, which occured in all experimental trials (Lewis & Barber, 2023). 
+It was found that the aggregate scores for the experimental trial (the American red squirrel) were significantly higher than the responses to the control trial (the rock) (*W* = 120, *N* = 16, *p* < 0.0001) as shown in Figure 1 (Lewis & Barber, 2023). The highest aggregate score was 10, and was observed during an experimental trial (Lewis & Barber, 2023). The most common defense tactic was alarm calls/chips, which occured in all experimental trials (Lewis & Barber, 2023). 
 
 ```{r, echo=FALSE}
 library(ggplot2)
@@ -31,7 +32,7 @@ ggplot(birds, aes(x = Trial, y = aggregate_score)) +
   theme_classic() +
   theme(legend.position = "none")
 ```
-Figure 1. Boxplot of aggregate scores of nest defense behaviours done by European starlings during control (n = 16) and experimental (n = 16) trials.
+Figure 1. Boxplot of aggregate scores of nest defense behaviours done by European starlings when exposed to control (n = 16) and experimental (n = 16) trials on nestboxes.
 
 Researchers were able to answer the two objectives of this article. They found that cooperative nest defense does occur in European starlings and that both females and males participated (Lewis & Barber, 2023). The authors propose that a next step for this work could be doing DNA analysis to determine the genetic relationships among the birds and the nestlings they defended to see if that is a potential driver of cooperative nest defense (Lewis & Barber, 2023).
 
