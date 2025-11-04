@@ -3,11 +3,11 @@ title: "mombourquette_Assignment6"
 author: "Janine Mombourquette"
 date: "2025-11-01"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
-# Summary of cooperative nest defense by European Starlings (*Sturnus vulgaris*) during a predatory threat
+# Cooperative nest defense by European Starlings (*Sturnus vulgaris*) during a predatory threat
 #### Paper by Elizabeth A. Lewis and Colleen A. Barber
 ##### Data and code for this assignment can be accessed through GitHub: https://github.com/JanineMombourquette/DSassignment6_Janine
 
@@ -32,7 +32,7 @@ ggplot(birds, aes(x = Trial, y = aggregate_score)) +
   theme_classic() +
   theme(legend.position = "none")
 ```
-Figure 1. Boxplot of aggregate scores of nest defense behaviours done by European starlings when exposed to control (n = 16) and experimental (n = 16) trials on nestboxes.
+Figure 1. Aggregate scores of European starling nest defense behaviours when exposed to control (n = 16) and experimental (n = 16) trials
 
 Researchers were able to answer the two objectives of this article. They found that cooperative nest defense does occur in European starlings and that both females and males participated (Lewis & Barber, 2023). The authors propose that a next step for this work could be doing DNA analysis to determine the genetic relationships among the adult birds and the nestlings they defended to see if cooperative nest defense is influenced by this factor (Lewis & Barber, 2023).
 
